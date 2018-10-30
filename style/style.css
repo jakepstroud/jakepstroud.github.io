@@ -109,13 +109,13 @@ ol li
 #logo
 { width: 880px;
   position: relative;
-  height: 140px;
-  background-color: rgba(35, 35, 35, 0.9);}
+  height: 140px;}
 
 #logo #logo_text 
 { position: absolute; 
   top: 10px;
-  left: 0;}
+  left: 0;
+  background-color: rgba(35, 35, 35, 0.9);}
 
 #logo h1, #logo h2
 { font: normal 200% 'century gothic', arial, sans-serif;
