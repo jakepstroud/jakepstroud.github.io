@@ -110,7 +110,7 @@ ol li
 { width: 880px;
   position: relative;
   height: 140px;
-  background: transparent;}
+  background-color: rgba(35, 35, 35, 0.9);}
 
 #logo #logo_text 
 { position: absolute; 
