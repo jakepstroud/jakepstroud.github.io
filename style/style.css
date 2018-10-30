@@ -327,3 +327,16 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+  
+  /* MEDIA STYLES HERE */
+
+@media only screen and (max-width : 900px) {
+
+  #logo #logo_text {
+    left: 10px;
+    background-color: rgba(35, 35, 35, 0.9);
+    padding: 10px;
+  }
+
+}
