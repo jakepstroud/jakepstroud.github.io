@@ -3,12 +3,7 @@ html
 
 *
 { margin: 0;
-  padding: 0;
-  box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  -o-box-sizing:border-box;
-}
+  padding: 0;}
 
 body
 { font: normal .90em 'roboto', arial, sans-serif;
@@ -112,8 +107,7 @@ ol li
   border: 5px solid #E7746F;}
 
 #logo
-{ max-width: 880px;
-  width: 94%;
+{ width: 880px;
   position: relative;
   height: 140px;
   background: transparent;}
@@ -147,8 +141,7 @@ ol li
   color: #FFF;}
 
 #menubar
-{ max-width: 880px;
-  width: 94%;
+{ width: 880px;
   height: 46px;} 
 
 ul#menu
@@ -190,18 +183,17 @@ ul#menu li a:hover
   background: #E7746F;}
 
 #site_content
-{ max-width: 880px;
-  width: 94%;
+{ width: 880px;
   overflow: hidden;
   margin: 20px auto 0 auto;
   padding: 0 0 10px 0;} 
 
 #sidebar_container
 { float: right;
-  width: 25%;}
+  width: 224px;}
 
 .sidebar_top
-{ width: 100%;
+{ width: 222px;
   height: 14px;
   background: transparent url(side_top.png) no-repeat;}
 
@@ -219,7 +211,7 @@ ul#menu li a:hover
 .sidebar_item
 { background: url(side_back.png) repeat-y;
   padding: 0 15px;
-  width: 100%;}
+  width: 192px;}
 
 .sidebar li a.selected
 { color: #444;} 
@@ -229,7 +221,7 @@ ul#menu li a:hover
 
 #content
 { text-align: left;
-  width: 70%;
+  width: 620px;
   padding: 0 0 0 5px;
   float: left;}
   
@@ -335,34 +327,3 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
-
-
-/* MEDIA STYLES HERE */
-
-@media only screen and (max-width : 900px) {
-
-  #sidebar_container, #content {
-    width: 100%;
-  }
-
-  #logo #logo_text {
-    left: 10px;
-    background-color: rgba(6, 5, 5, 0.7);
-    padding: 10px;
-  }
-
-  #logo #logo_text h1 {
-    padding-top: 0;
-    margin-top: 0;
-}
-
-#header {
-  height: auto;
-  overflow: hidden;
-}
-
-#menubar {
-  height: auto;
-}
-
-}
